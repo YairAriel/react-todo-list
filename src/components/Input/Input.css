@@ -1,0 +1,49 @@
+.InputContainer {
+
+}
+
+.Input {
+    width: 80%;
+    border: 2px solid #61DAFB;
+    border-radius: 2px;
+    margin-top: 1em;
+    font-size: 24px;
+    padding: .3em;
+}
+
+.Input:focus {
+    outline: none;
+}
+
+.GoButton {
+    border: 2px solid #61DAFB;
+    border-radius: 2px;
+    font-weight: bold;
+    color: #61DAFB;
+    background: none;
+    width: 16%;
+    font-size: 24px;
+    padding: .3em;
+    cursor: pointer;
+    background: #eee;
+}
+
+.GoButton:hover {
+    background: #ccc;
+    color: #0297bf;
+}
+
+.GoButton:focus {
+    outline: none;
+}
+
+@media (max-width: 500px) {
+    .Input {
+        width: 93.5%;
+        margin-bottom: .2em;
+    }
+
+    .GoButton {
+        width: 100%;
+    }
+}

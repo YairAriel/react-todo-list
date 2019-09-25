@@ -1,0 +1,28 @@
+.Completed {
+    width: 60%;
+    margin: 1em auto;
+}
+
+.Completed div p:hover {
+    cursor: pointer;
+}
+
+.Plain {
+    font-size: 1.2em;
+}
+
+.Plain span {
+    color: #61DAFB;
+}
+.Plain span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Delete {
+    color: red;
+}
+.Delete:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

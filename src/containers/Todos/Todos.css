@@ -1,0 +1,10 @@
+.Todos {
+    margin: 0 auto;
+    width: 60%;
+}
+
+@media (max-width: 500px) {
+    .Todos {
+        width: 90%;
+    }
+}

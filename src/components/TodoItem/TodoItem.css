@@ -1,0 +1,44 @@
+.Text {
+    margin: 0;
+    font-weight: bold;
+    cursor: pointer;
+    flex: 10;
+}
+
+.Done {
+    text-decoration: line-through;
+    font-weight: normal;
+}
+
+.Edit {
+    color: #299c0e;
+    flex: 1;
+    cursor: pointer;
+    float: right;
+}
+
+.Delete {
+    color: #f74949;
+    cursor: pointer;
+    flex: 1;
+    float: right;
+}
+
+.InlineInput {
+    font-size: 16px;
+    border: 1.5px solid #299c0e;
+    padding: .1em .5em
+}
+
+.InlineButton {
+    font-size: 16px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: transparent;
+    background: transparent;
+    color: #299c0e;
+}
+
+.InlineButton:hover {
+    cursor: pointer;
+}

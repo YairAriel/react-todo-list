@@ -1,0 +1,16 @@
+.NavItem {
+    list-style: none;
+    display: inline;
+    margin: 0 1em;
+}
+
+.NavItem a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+.NavItem a.active,
+.NavItem a:active,
+.NavItem a:hover {
+    color: #61DAFB;
+}
